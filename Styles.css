@@ -1,0 +1,139 @@
+body{
+    margin: 0 !important;
+    font-family: "Poppins", sans-serif;
+    background-image: url("abc.jpg");
+}
+
+header {
+    background-color: #b859a3 !important;
+}
+
+header nav ul {
+    display: -webkit-flex;
+    text-decoration: none;
+    list-style: none;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+header nav ul li a {
+    text-decoration: none !important;
+    font-size: 15px;
+    color: azure;
+    font-weight: 600;
+}
+
+header nav ul li:active {
+    transform: scale(0.9);
+}
+
+header nav ul li a:hover {
+    color: rgb(174, 228, 228);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: underline;
+    color: #333;
+    font-weight: 500;
+}
+.code-box {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #b859a3;
+    border-radius: 5px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+}
+.output-box {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #b859a3;
+    border-radius: 5px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    font-size: 15px;
+}
+pre {
+    margin: 0;
+}
+
+.banner{
+    min-height: 85vh;
+}
+
+.banner .profile-frame {
+    display: flex !important;
+    justify-content: center;
+}
+
+.banner .profile-frame img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 5px solid #b859a3;
+    margin-top: 20px;
+}
+
+.banner h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #b859a3;
+}
+
+.banner .link {
+    display: flex;
+    justify-content: center;
+}
+
+.banner a {
+    padding-top: 8px;
+    padding-bottom: 7px;
+    background-color: #d37fc3;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-top: 50px;
+    border-radius: 25px;
+    text-decoration: underline;
+    color: #fff;
+}
+
+.banner a:hover {
+    background-color: #b859a3;
+}
+.banner a:active {
+    transform: scale(0.9);
+}
+
+.container1 {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
